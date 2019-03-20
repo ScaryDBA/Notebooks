@@ -1,6 +1,6 @@
 --Schema
 CREATE SCHEMA dbo;
-CREATE SCHEMA SalesLT;
+CREATE SCHEMA saleslt;
 
 --Tables
 CREATE TABLE "dbo.BuildVersion"
@@ -20,7 +20,7 @@ ErrorProcedure VARCHAR(126) NULL,
 ErrorLine INTEGER NULL,
 ErrorMessage VARCHAR(4000) NOT NULL);
 
-CREATE TABLE SalesLT.Address(
+CREATE TABLE saleslt.Address(
 	AddressID SERIAL PRIMARY KEY,
 	AddressLine1 varchar(60) NOT NULL,
 	AddressLine2 varchar(60) NULL,
@@ -32,7 +32,7 @@ CREATE TABLE SalesLT.Address(
 	ModifiedDate TIMESTAMP NOT NULL
 );
 
-CREATE TABLE SalesLT.Customer(
+CREATE TABLE saleslt.Customer(
 	CustomerID SERIAL PRIMARY KEY,
 	NameStyle VARCHAR(50) NOT NULL,
 	Title varchar(8) NULL,
@@ -50,7 +50,7 @@ CREATE TABLE SalesLT.Customer(
 	ModifiedDate TIMESTAMP NOT NULL
 );
 
-CREATE TABLE SalesLT.CustomerAddress(
+CREATE TABLE saleslt.CustomerAddress(
 	CustomerID int NOT NULL,
 	AddressID int NOT NULL,
 	AddressType varchar(50) NOT NULL,
@@ -58,7 +58,7 @@ CREATE TABLE SalesLT.CustomerAddress(
 	ModifiedDate TIMESTAMP NOT NULL
 )
 
-CREATE TABLE SalesLT.Product(
+CREATE TABLE saleslt.Product(
 	ProductID SERIAL PRIMARY KEY,
 	Name varchar(50) NOT NULL,
 	ProductNumber varchar(25) NOT NULL,
@@ -78,7 +78,7 @@ CREATE TABLE SalesLT.Product(
 	ModifiedDate timestamp NOT NULL
 );
 
-CREATE TABLE SalesLT.ProductCategory(
+CREATE TABLE saleslt.ProductCategory(
 	ProductCategoryID SERIAL PRIMARY KEY,
 	ParentProductCategoryID int NULL,
 	Name varchar(50) NOT NULL,
@@ -86,14 +86,14 @@ CREATE TABLE SalesLT.ProductCategory(
 	ModifiedDate TIMESTAMP NOT NULL
 );
 
-CREATE TABLE SalesLT.ProductDescription(
+CREATE TABLE saleslt.ProductDescription(
 	ProductDescriptionID SERIAL PRIMARY KEY,
 	Description varchar(400) NOT NULL,
 	rowguid char(16) NOT NULL,
 	ModifiedDate TIMESTAMP NOT NULL
 );
 
-CREATE TABLE SalesLT.ProductModel(
+CREATE TABLE saleslt.ProductModel(
 	ProductModelID SERIAL PRIMARY KEY,
 	Name varchar(50) NOT NULL,
 	CatalogDescription xml NULL,
@@ -101,7 +101,7 @@ CREATE TABLE SalesLT.ProductModel(
 	ModifiedDate TIMESTAMP NOT NULL
 );
 
-CREATE TABLE SalesLT.ProductModelProductDescription(
+CREATE TABLE saleslt.ProductModelProductDescription(
 	ProductModelID int NOT NULL,
 	ProductDescriptionID int NOT NULL,
 	Culture char(6) NOT NULL,
@@ -109,7 +109,7 @@ CREATE TABLE SalesLT.ProductModelProductDescription(
 	ModifiedDate TIMESTAMP NOT NULL
 );
 
-CREATE TABLE SalesLT.SalesOrderDetail(
+CREATE TABLE saleslt.SalesOrderDetail(
 	SalesOrderID int NOT NULL,
 	SalesOrderDetailID SERIAL NOT NULL,
 	OrderQty smallint NOT NULL,
@@ -123,7 +123,7 @@ CREATE TABLE SalesLT.SalesOrderDetail(
 
 
 
-CREATE TABLE SalesLT.SalesOrderHeader(
+CREATE TABLE saleslt.SalesOrderHeader(
 	SalesOrderID SERIAL PRIMARY KEY,
 	RevisionNumber smallint NOT NULL,
 	OrderDate timestamp NOT NULL,
@@ -148,27 +148,27 @@ CREATE TABLE SalesLT.SalesOrderHeader(
 	ModifiedDate timestamp NOT NULL
 );
 
-ALTER TABLE SalesLT.CustomerAddress 
-ADD CONSTRAINT CustomerAddressAddress FOREIGN KEY (AddressID) REFERENCES SalesLT.Customer (CustomerID);
+ALTER TABLE saleslt.CustomerAddress 
+ADD CONSTRAINT CustomerAddressAddress FOREIGN KEY (AddressID) REFERENCES saleslt.Customer (CustomerID);
 
-ALTER TABLE SalesLT.Product 
-ADD CONSTRAINT ProductProductCategory FOREIGN KEY (ProductCategoryID) REFERENCES SalesLT.ProductCategory (ProductCategoryID);
+ALTER TABLE saleslt.Product 
+ADD CONSTRAINT ProductProductCategory FOREIGN KEY (ProductCategoryID) REFERENCES saleslt.ProductCategory (ProductCategoryID);
 
-ALTER TABLE SalesLT.Product 
-ADD CONSTRAINT ProductProductModel FOREIGN KEY (ProductModelID) REFERENCES SalesLT.ProductModel (ProductModelID);
+ALTER TABLE saleslt.Product 
+ADD CONSTRAINT ProductProductModel FOREIGN KEY (ProductModelID) REFERENCES saleslt.ProductModel (ProductModelID);
 
-ALTER TABLE SalesLT.ProductCategory
-ADD CONSTRAINT ProductCategoryProductCategory FOREIGN KEY (ParentProductCategoryID) REFERENCES SalesLT.ProductCategory (ProductCategoryID);
+ALTER TABLE saleslt.ProductCategory
+ADD CONSTRAINT ProductCategoryProductCategory FOREIGN KEY (ParentProductCategoryID) REFERENCES saleslt.ProductCategory (ProductCategoryID);
 
-ALTER TABLE SalesLT.ProductModelProductDescription
-ADD CONSTRAINT ProductModelProductDescription FOREIGN KEY (ProductDescriptionID) REFERENCES SalesLT.ProductDescription (ProductDescriptionID);
+ALTER TABLE saleslt.ProductModelProductDescription
+ADD CONSTRAINT ProductModelProductDescription FOREIGN KEY (ProductDescriptionID) REFERENCES saleslt.ProductDescription (ProductDescriptionID);
 
-ALTER TABLE SalesLT.ProductModelProductDescription
-ADD CONSTRAINT ProductModelProductModel FOREIGN KEY (ProductModelID) REFERENCES SalesLT.ProductModel (ProductModelID);
+ALTER TABLE saleslt.ProductModelProductDescription
+ADD CONSTRAINT ProductModelProductModel FOREIGN KEY (ProductModelID) REFERENCES saleslt.ProductModel (ProductModelID);
 
-ALTER TABLE SalesLT.SalesOrderDetail
-ADD CONSTRAINT SalesOrderDetailProduct FOREIGN KEY (ProductID) references SalesLT.Product (ProductID);
+ALTER TABLE saleslt.SalesOrderDetail
+ADD CONSTRAINT SalesOrderDetailProduct FOREIGN KEY (ProductID) references saleslt.Product (ProductID);
 
 
-ALTER TABLE SalesLT.SalesOrderDetail
-ADD CONSTRAINT SalesOrderDetailSalesOrderHeader FOREIGN KEY (SalesOrderID) references SalesLT.SalesOrderHeader (SalesOrderID);
+ALTER TABLE saleslt.SalesOrderDetail
+ADD CONSTRAINT SalesOrderDetailSalesOrderHeader FOREIGN KEY (SalesOrderID) references saleslt.SalesOrderHeader (SalesOrderID);
