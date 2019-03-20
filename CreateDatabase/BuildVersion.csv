@@ -1,0 +1,3 @@
+#TYPE System.Data.DataRow
+"SystemInformationID","Database Version","VersionDate","ModifiedDate"
+"1","10.50.91013.00","10/13/2009 12:00:00 AM","10/13/2009 12:00:00 AM"

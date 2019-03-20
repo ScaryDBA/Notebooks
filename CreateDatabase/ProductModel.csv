@@ -1,0 +1,167 @@
+#TYPE System.Data.DataRow
+"ProductModelID","Name","CatalogDescription","rowguid","ModifiedDate"
+"1","Classic Vest","","29321d47-1e4c-4aac-887c-19634328c25e","6/1/2007 12:00:00 AM"
+"2","Cycling Cap","","474fb654-3c96-4cb9-82df-2152eeffbdb0","6/1/2005 12:00:00 AM"
+"3","Full-Finger Gloves","","a75483fe-3c47-4aa4-93cf-664b51192987","6/1/2006 12:00:00 AM"
+"4","Half-Finger Gloves","","14b56f2a-d4aa-40a4-b9a2-984f165ed702","6/1/2006 12:00:00 AM"
+"5","HL Mountain Frame","","fdd5407b-c2db-49d1-a86b-c13a2e3582a2","6/1/2005 12:00:00 AM"
+"6","HL Road Frame","","4d332ecc-48b3-4e04-b7e7-227f3ac2a7ec","5/2/2002 12:00:00 AM"
+"7","HL Touring Frame","","d60ed2a5-c100-4c54-89a1-531404c4a20f","5/16/2009 4:34:28 PM"
+"8","LL Mountain Frame","","65bf3f6d-bcf2-4db6-8515-fc5c57423037","11/20/2006 9:56:38 AM"
+"9","LL Road Frame","","ddc67a2f-024a-4446-9b54-3c679baba708","6/1/2005 12:00:00 AM"
+"10","LL Touring Frame","","66c63844-2a24-473c-96d5-d3b3fd57d834","5/16/2009 4:34:28 PM"
+"11","Long-Sleeve Logo Jersey","","20efe3f1-a2f8-4dde-b74b-18265f61f863","6/1/2005 12:00:00 AM"
+"12","Men's Bib-Shorts","","219e2f87-26a9-483b-b968-04578e943096","6/1/2006 12:00:00 AM"
+"13","Men's Sports Shorts","","45fe0d77-6645-473c-a116-1232baea8d43","6/1/2006 12:00:00 AM"
+"14","ML Mountain Frame","","0d48c51d-7603-4010-9265-0491805bb010","6/1/2006 12:00:00 AM"
+"15","ML Mountain Frame-W","","aa77697c-6d1c-48f1-845c-3cb089498715","6/1/2006 12:00:00 AM"
+"16","ML Road Frame","","3494e8ff-7daf-4860-abf6-97842048e272","6/1/2005 12:00:00 AM"
+"17","ML Road Frame-W","","ca18ecfd-2023-4fa7-a556-0321153bca34","6/1/2006 12:00:00 AM"
+"18","Mountain Bike Socks","","36b1a76a-dff3-4a55-86f9-65eb1cb18d7b","6/1/2005 12:00:00 AM"
+"19","Mountain-100","<?xml-stylesheet href=""ProductDescription.xsl"" type=""text/xsl""?><p1:ProductDescription xmlns:p1=""http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/ProductModelDescription"" xmlns:wm=""http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/ProductModelWarrAndMain"" xmlns:wf=""http://www.adventure-works.com/schemas/OtherFeatures"" xmlns:html=""http://www.w3.org/1999/xhtml"" ProductModelID=""19"" ProductModelName=""Mountain 100""><p1:Summary><html:p>Our top-of-the-line competition mountain bike.
+ 				Performance-enhancing options include the innovative HL Frame,
+				super-smooth front suspension, and traction for all terrain.
+                        </html:p></p1:Summary><p1:Manufacturer><p1:Name>AdventureWorks</p1:Name><p1:Copyright>2002</p1:Copyright><p1:ProductURL>HTTP://www.Adventure-works.com</p1:ProductURL></p1:Manufacturer><p1:Features>These are the product highlights.
+                 <wm:Warranty><wm:WarrantyPeriod>3 years</wm:WarrantyPeriod><wm:Description>parts and labor</wm:Description></wm:Warranty><wm:Maintenance><wm:NoOfYears>10 years</wm:NoOfYears><wm:Description>maintenance contract available through your dealer or any AdventureWorks retail store.</wm:Description></wm:Maintenance><wf:wheel>High performance wheels.</wf:wheel><wf:saddle><html:i>Anatomic design</html:i> and made from durable leather for a full-day of riding in comfort.</wf:saddle><wf:pedal><html:b>Top-of-the-line</html:b> clipless pedals with adjustable tension.</wf:pedal><wf:BikeFrame>Each frame is hand-crafted in our Bothell facility to the optimum diameter
+				and wall-thickness required of a premium mountain frame.
+				The heat-treated welded aluminum frame has a larger diameter tube that absorbs the bumps.</wf:BikeFrame><wf:crankset> Triple crankset; alumunim crank arm; flawless shifting. </wf:crankset></p1:Features><!-- add one or more of these elements... one for each specific product in this product model --><p1:Picture><p1:Angle>front</p1:Angle><p1:Size>small</p1:Size><p1:ProductPhotoID>118</p1:ProductPhotoID></p1:Picture><!-- add any tags in <specifications> --><p1:Specifications> These are the product specifications.
+                   <Material>Almuminum Alloy</Material><Color>Available in most colors</Color><ProductLine>Mountain bike</ProductLine><Style>Unisex</Style><RiderExperience>Advanced to Professional riders</RiderExperience></p1:Specifications></p1:ProductDescription>","fca0665b-b956-489a-a5ec-6f0b4aa14d02","6/1/2005 12:00:00 AM"
+"20","Mountain-200","","3b78edff-2aa9-4ac1-8c3d-94090b5f53a9","6/1/2006 12:00:00 AM"
+"21","Mountain-300","","ecddd0d7-2db2-464d-b2da-89bffc6276aa","6/1/2006 12:00:00 AM"
+"22","Mountain-400-W","","6d2fcce4-ffce-4662-a3f8-5d18f0eedcd8","6/1/2007 12:00:00 AM"
+"23","Mountain-500","<?xml-stylesheet href=""ProductDescription.xsl"" type=""text/xsl""?><p1:ProductDescription xmlns:p1=""http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/ProductModelDescription"" xmlns:wm=""http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/ProductModelWarrAndMain"" xmlns:wf=""http://www.adventure-works.com/schemas/OtherFeatures"" xmlns:html=""http://www.w3.org/1999/xhtml"" ProductModelID=""23"" ProductModelName=""Mountain-500""><p1:Summary><html:p>Suitable for any type of riding, on or off-road.
+			Fits any budget. Smooth-shifting with a comfortable ride.
+                        </html:p></p1:Summary><p1:Manufacturer><p1:Name>AdventureWorks</p1:Name><p1:Copyright>2002</p1:Copyright><p1:ProductURL>HTTP://www.Adventure-works.com</p1:ProductURL></p1:Manufacturer><p1:Features>Product highlights include:
+                 <wm:Warranty><wm:WarrantyPeriod>1 year</wm:WarrantyPeriod><wm:Description>parts and labor</wm:Description></wm:Warranty><wm:Maintenance><wm:NoOfYears>3 years</wm:NoOfYears><wm:Description>maintenance contact available through dealer</wm:Description></wm:Maintenance><wf:wheel>Stable, durable wheels suitable for novice riders.</wf:wheel><wf:saddle>Made from synthetic leather and features gel padding for increased comfort.</wf:saddle><wf:pedal><html:b>Expanded platform</html:b> so you can ride in any shoes; great for all-around riding.</wf:pedal><wf:crankset> Super rigid spindle. </wf:crankset><wf:BikeFrame>Our best value frame utilizing the same, ground-breaking technology as the ML aluminum frame.</wf:BikeFrame></p1:Features><!-- add one or more of these elements... one for each specific product in this product model --><p1:Picture><p1:Angle>front</p1:Angle><p1:Size>small</p1:Size><p1:ProductPhotoID>1</p1:ProductPhotoID></p1:Picture><!-- add any tags in <specifications> --><p1:Specifications> These are the product specifications.
+                   <Height>Varies</Height> Centimeters.
+                   <Material>Aluminum Alloy</Material><Color>Available in all colors.</Color><ProductLine>Mountain bike</ProductLine><Style>Unisex</Style><RiderExperience>Novice to Intermediate riders</RiderExperience></p1:Specifications></p1:ProductDescription>","866dbad3-5999-4329-beac-d826d959d9a1","11/20/2006 9:56:38 AM"
+"24","Racing Socks","","bd8ba6f8-7e16-4fa3-b3b3-2036dd4a2ae0","6/1/2007 12:00:00 AM"
+"25","Road-150","<?xml-stylesheet href=""ProductDescription.xsl"" type=""text/xsl""?><p1:ProductDescription xmlns:p1=""http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/ProductModelDescription"" xmlns:wm=""http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/ProductModelWarrAndMain"" xmlns:wf=""http://www.adventure-works.com/schemas/OtherFeatures"" xmlns:html=""http://www.w3.org/1999/xhtml"" ProductModelID=""25"" ProductModelName=""Road-150""><p1:Summary><html:p>This bike is ridden by race winners. Developed with the
+			Adventure Works Cycles professional race team, it has a extremely light
+			heat-treated aluminum frame, and steering that allows precision control.
+                        </html:p></p1:Summary><p1:Manufacturer><p1:Name>AdventureWorks</p1:Name><p1:Copyright>2002</p1:Copyright><p1:ProductURL>HTTP://www.Adventure-works.com</p1:ProductURL></p1:Manufacturer><p1:Features>These are the product highlights.
+                 <wm:Warranty><wm:WarrantyPeriod>4 years</wm:WarrantyPeriod><wm:Description>parts and labor</wm:Description></wm:Warranty><wm:Maintenance><wm:NoOfYears>7 years</wm:NoOfYears><wm:Description>maintenance contact available through dealer or any Adventure Works Cycles retail store.</wm:Description></wm:Maintenance><wf:handlebar>Designed for racers; high-end anatomically shaped bar from aluminum alloy.</wf:handlebar><wf:wheel>Strong wheels with double-walled rims.</wf:wheel><wf:saddle><html:i>Lightweight </html:i> kevlar racing saddle.</wf:saddle><wf:pedal><html:b>Top-of-the-line</html:b> clipless pedals with adjustable tension.</wf:pedal><wf:BikeFrame><html:i>Our lightest and best quality </html:i> aluminum frame made from the newest alloy;
+			it is welded and heat-treated for strength.
+			Our innovative design results in maximum comfort and performance.</wf:BikeFrame></p1:Features><!-- add one or more of these elements... one for each specific product in this product model --><p1:Picture><p1:Angle>front</p1:Angle><p1:Size>small</p1:Size><p1:ProductPhotoID>126</p1:ProductPhotoID></p1:Picture><!-- add any tags in <specifications> --><p1:Specifications> These are the product specifications.
+                   <Material>Aluminum</Material><Color>Available in all colors.</Color><ProductLine>Road bike</ProductLine><Style>Unisex</Style><RiderExperience>Intermediate to Professional riders</RiderExperience></p1:Specifications></p1:ProductDescription>","94ffb702-0cbc-4e3f-b840-c51f0d11c8f6","6/1/2005 12:00:00 AM"
+"26","Road-250","","3770c5e3-8dc9-43c7-b735-7aff21645d96","6/1/2006 12:00:00 AM"
+"27","Road-350-W","","dfe49035-7720-4ff4-b28b-16250ee46259","6/1/2007 12:00:00 AM"
+"28","Road-450","<?xml-stylesheet href=""ProductDescription.xsl"" type=""text/xsl""?><p1:ProductDescription xmlns:p1=""http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/ProductModelDescription"" xmlns:wm=""http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/ProductModelWarrAndMain"" xmlns:wf=""http://www.adventure-works.com/schemas/OtherFeatures"" xmlns:html=""http://www.w3.org/1999/xhtml"" ProductModelID=""28"" ProductModelName=""Road-450""><p1:Summary><html:p>A true multi-sport bike that offers streamlined riding and a revolutionary design.
+			       Aerodynamic design lets you ride with the pros, and the gearing will conquer hilly roads.
+                        </html:p></p1:Summary><p1:Manufacturer><p1:Name>AdventureWorks</p1:Name><p1:Copyright>2002</p1:Copyright><p1:ProductURL>HTTP://www.Adventure-works.com</p1:ProductURL></p1:Manufacturer><p1:Features>These are the product highlights.
+                 <wm:Warranty><wm:WarrantyPeriod>1 year</wm:WarrantyPeriod><wm:Description>parts and labor</wm:Description></wm:Warranty><wm:Maintenance><wm:NoOfYears>5 years</wm:NoOfYears><wm:Description>maintenance contact available through dealer</wm:Description></wm:Maintenance><wf:handlebar><html:i>Incredibly strong</html:i> professional grade handlebar.</wf:handlebar><wf:wheel>Aluminum alloy rim with stainless steel spokes; built for speed on our high quality rubber tires.</wf:wheel><wf:saddle><html:i>Comfortable</html:i> saddle with bump absorping rubber bumpers.</wf:saddle><wf:pedal><html:b>Top-of-the-line</html:b> clipless pedals with adjustable tension.</wf:pedal><wf:BikeFrame><html:i>aluminum alloy </html:i> frame
+                     and features a lightweight down-tube milled to the perfect diameter for optimal strength.</wf:BikeFrame></p1:Features><!-- add one or more of these elements... one for each specific product in this product model --><p1:Picture><p1:Angle>front</p1:Angle><p1:Size>small</p1:Size><p1:ProductPhotoID>111</p1:ProductPhotoID></p1:Picture><!-- add any tags in <specifications> --><p1:Specifications> These are the product specifications.
+                   <Height>Varies</Height> Centimeters.
+                   <Material>Aluminum Alloy</Material><Weight>Varies with size </Weight><Color>Available in all colors.</Color><ProductLine>Road bike</ProductLine><Style>Unisex</Style><RiderExperience>Novice to Advanced riders</RiderExperience></p1:Specifications></p1:ProductDescription>","8456bb94-b4dd-4a47-a76b-d0e54ab4285d","6/1/2005 12:00:00 AM"
+"29","Road-550-W","","f85f84f2-9ce0-4ecc-9c29-e78021ffc877","6/1/2006 12:00:00 AM"
+"30","Road-650","","42e1c597-6dd9-4071-b1a5-1dc5cdcbdbca","6/1/2005 12:00:00 AM"
+"31","Road-750","","2bf795f4-2666-4691-af14-d490c7334a8a","11/20/2006 9:56:38 AM"
+"32","Short-Sleeve Classic Jersey","","6beccf2d-eacd-496b-995b-d692567565cd","6/1/2007 12:00:00 AM"
+"33","Sport-100","","47f7c450-d16a-4cea-be6e-2d6c8c8f81ee","6/1/2005 12:00:00 AM"
+"34","Touring-1000","<?xml-stylesheet href=""ProductDescription.xsl"" type=""text/xsl""?><p1:ProductDescription xmlns:p1=""http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/ProductModelDescription"" xmlns:wm=""http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/ProductModelWarrAndMain"" xmlns:wf=""http://www.adventure-works.com/schemas/OtherFeatures"" xmlns:html=""http://www.w3.org/1999/xhtml"" ProductModelID=""34"" ProductModelName=""Touring-1000""><p1:Summary><html:p>Travel in style and comfort. Designed for maximum comfort and safety.
+			Wide gear range takes on all hills. High-tech aluminum alloy construction provides durability without added weight.
+                        </html:p></p1:Summary><p1:Manufacturer><p1:Name>AdventureWorks</p1:Name><p1:Copyright>2002</p1:Copyright><p1:ProductURL>HTTP://www.Adventure-works.com</p1:ProductURL></p1:Manufacturer><p1:Features>These are the product highlights.
+                 <wm:Warranty><wm:WarrantyPeriod>1 year</wm:WarrantyPeriod><wm:Description>parts and labor</wm:Description></wm:Warranty><wm:Maintenance><wm:NoOfYears>5 years</wm:NoOfYears><wm:Description>maintenance contact available through dealer</wm:Description></wm:Maintenance><wf:handlebar>A light yet stiff aluminum bar for long distance riding.</wf:handlebar><wf:wheel>Excellent aerodynamic rims guarantee a smooth ride.</wf:wheel><wf:saddle><html:i>Cut-out shell </html:i> for a more comfortable ride.</wf:saddle><wf:pedal>A stable pedal for all-day riding.</wf:pedal><wf:BikeFrame><html:i>aluminum alloy </html:i> frame
+                     and features a lightweight down-tube milled to the perfect diameter for optimal strength.</wf:BikeFrame></p1:Features><!-- add one or more of these elements... one for each specific product in this product model --><p1:Picture><p1:Angle>front</p1:Angle><p1:Size>small</p1:Size><p1:ProductPhotoID>87</p1:ProductPhotoID></p1:Picture><!-- add any tags in <specifications> --><p1:Specifications> These are the product specifications.
+
+                   <Material>Aluminum alloy </Material><Color>Available in most colors.</Color><ProductLine>Touring bike</ProductLine><Style>Unisex</Style><RiderExperience>Novice to Advanced riders</RiderExperience></p1:Specifications></p1:ProductDescription>","52e7f2c1-dbff-4518-927d-c7d46f9ed32e","11/20/2006 9:56:38 AM"
+"35","Touring-2000","<?xml-stylesheet href=""ProductDescription.xsl"" type=""text/xsl""?><p1:ProductDescription xmlns:p1=""http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/ProductModelDescription"" xmlns:wm=""http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/ProductModelWarrAndMain"" xmlns:wf=""http://www.adventure-works.com/schemas/OtherFeatures"" xmlns:html=""http://www.w3.org/1999/xhtml"" ProductModelID=""35"" ProductModelName=""Touring-2000""><p1:Summary><html:p>The plush custom saddle keeps you riding all day, and there's plenty of space
+			 to add panniers and bike bags to the newly-redesigned carrier.
+				This bike has great stability when fully-loaded.
+                        </html:p></p1:Summary><p1:Manufacturer><p1:Name>AdventureWorks</p1:Name><p1:Copyright>2002</p1:Copyright><p1:ProductURL>HTTP://www.Adventure-works.com</p1:ProductURL></p1:Manufacturer><p1:Features>These are the product highlights.
+                 <wm:Warranty><wm:WarrantyPeriod>1 year</wm:WarrantyPeriod><wm:Description>parts and labor</wm:Description></wm:Warranty><wm:Maintenance><wm:NoOfYears>5 years</wm:NoOfYears><wm:Description>maintenance contact available through dealer</wm:Description></wm:Maintenance><wf:handlebar>A light yet stiff aluminum bar for long distance riding.</wf:handlebar><wf:saddle><html:i>New design </html:i> relieves pressure for long rides.</wf:saddle><wf:pedal><html:b>Top-of-the-line</html:b> clipless pedals with adjustable tension.</wf:pedal><wf:crankset> High-strength crank arm. </wf:crankset><wf:BikeFrame>The aluminum frame is custom-shaped for both good looks and strength;
+				it will withstand the most rigorous challenges of daily riding.</wf:BikeFrame></p1:Features><!-- add one or more of these elements... one for each specific product in this product model --><p1:Picture><p1:Angle>front</p1:Angle><p1:Size>small</p1:Size><p1:ProductPhotoID>87</p1:ProductPhotoID></p1:Picture><!-- add any tags in <specifications> --><p1:Specifications> These are the product specifications.
+                   <Material>Aluminum</Material><Color>Available in all colors except metallic.</Color><ProductLine>Touring bike</ProductLine><Style>Men's</Style><FrameMaterial>Aluminium alloy</FrameMaterial><RiderExperience>Intermediate to Advanced riders</RiderExperience></p1:Specifications></p1:ProductDescription>","aa10d9e6-e33f-4da8-ace1-992fcd6bb171","11/20/2006 9:56:38 AM"
+"36","Touring-3000","","f5a6ec78-4451-45db-955f-db197de8b059","11/20/2006 9:56:38 AM"
+"37","Women's Mountain Shorts","","a08dd61a-6155-4051-9a11-223232ea51cd","6/1/2007 12:00:00 AM"
+"38","Women's Tights","","a96ff80d-d52a-432f-9701-731bef16efcc","6/1/2006 12:00:00 AM"
+"39","Mountain-400","","37d261a7-00cf-4880-ac1a-533b6b4365b0","6/1/2005 12:00:00 AM"
+"40","Road-550","","30450264-4ab8-45e0-8bb5-4d407ea2950a","6/1/2006 12:00:00 AM"
+"41","Road-350","","d71bd21c-239e-4c2b-98a3-101962d6b2d3","11/20/2006 9:56:38 AM"
+"42","LL Mountain Front Wheel","","aa977b32-acd8-4c53-a560-88a02ac1954d","11/20/2006 9:56:38 AM"
+"43","Touring Rear Wheel","","e878fcaa-61cc-4014-988a-51f52643f7aa","5/16/2009 4:34:28 PM"
+"44","Touring Front Wheel","","6da78798-3793-4b8e-829e-dba9d140b1d4","5/16/2009 4:34:28 PM"
+"45","ML Mountain Front Wheel","","c3ff3f93-60a8-4957-b076-b7d0984ee70f","6/1/2006 12:00:00 AM"
+"46","HL Mountain Front Wheel","","cca597fb-195f-4ec5-bf5c-15b98d176f4c","6/1/2006 12:00:00 AM"
+"47","LL Touring Handlebars","","84138622-1ea6-489f-9c98-6e3924cfbac0","5/16/2009 4:34:29 PM"
+"48","HL Touring Handlebars","","9da82e49-80ad-4918-9a54-31f4b0c8eabb","5/16/2009 4:34:29 PM"
+"49","LL Road Front Wheel","","90f759c1-2073-4d9f-854b-c6b6f3bf9162","6/1/2006 12:00:00 AM"
+"50","ML Road Front Wheel","","980c8cd0-4903-41f2-9ffc-773c7fe4c254","6/1/2006 12:00:00 AM"
+"51","HL Road Front Wheel","","02a562e2-4dfa-4778-bbac-bbddcecf99b0","6/1/2006 12:00:00 AM"
+"52","LL Mountain Handlebars","","699c2ac5-5406-46d2-863d-dcfb23fc7943","6/1/2006 12:00:00 AM"
+"53","Touring Pedal","","b98a3207-56fc-405c-a040-3c7a90cc7890","5/16/2009 4:34:29 PM"
+"54","ML Mountain Handlebars","","c9fcc804-2cd7-4b8a-b186-9c409cc19df9","6/1/2006 12:00:00 AM"
+"55","HL Mountain Handlebars","","782c991b-a660-4561-a3f4-9bbd74259747","6/1/2006 12:00:00 AM"
+"56","LL Road Handlebars","","a7e65199-84a8-437e-ad55-360c1df1d788","6/1/2006 12:00:00 AM"
+"57","ML Road Handlebars","","02200aa0-c369-4d77-a67c-75973efda81b","6/1/2006 12:00:00 AM"
+"58","HL Road Handlebars","","2489ddc5-1c89-4dec-af22-b0112ccec467","6/1/2006 12:00:00 AM"
+"59","LL Headset","","39afbba9-0f6c-44ee-b5e1-32fa93f897e6","6/1/2006 12:00:00 AM"
+"60","ML Headset","","6ba9f3b6-e08b-4ac2-a725-b41114c2a283","6/1/2006 12:00:00 AM"
+"61","HL Headset","","e196d02e-9bf6-4c67-b772-ed9f86ccf44c","6/1/2006 12:00:00 AM"
+"62","LL Mountain Pedal","","8123f7e2-a5f4-4047-b69d-e74313dfebce","6/1/2007 12:00:00 AM"
+"63","ML Mountain Pedal","","be9cdc56-f4ab-40f1-b338-2e08e0627abd","6/1/2007 12:00:00 AM"
+"64","HL Mountain Pedal","","8da73708-8dae-44ae-ac6c-6e37022c1ffe","6/1/2007 12:00:00 AM"
+"65","ML Touring Seat/Saddle","","63a2199f-f5b5-49bd-bcfc-bec1d1d16d8b","6/1/2007 12:00:00 AM"
+"66","LL Touring Seat/Saddle","","4a17c43a-1a55-41bb-bc97-612f47cedeb3","5/16/2009 4:34:29 PM"
+"67","HL Touring Seat/Saddle","","059a2000-7549-4b49-8e0c-2de6b2771ef4","5/16/2009 4:34:29 PM"
+"68","LL Road Pedal","","218b016c-7454-4193-b518-21955c783d72","6/1/2007 12:00:00 AM"
+"69","ML Road Pedal","","3cdf61d6-6209-436f-b235-82e8f159208b","6/1/2007 12:00:00 AM"
+"70","HL Road Pedal","","35677b42-72ca-4d9e-a966-dd874b83ef45","6/1/2007 12:00:00 AM"
+"71","LL Mountain Seat/Saddle 1","","a166af4c-87bb-41aa-8496-d76b26008fb3","6/1/2007 12:00:00 AM"
+"72","ML Mountain Seat/Saddle 1","","baa9405b-68ca-4c18-bc9c-1c4acf49bafc","6/1/2007 12:00:00 AM"
+"73","HL Mountain Seat/Saddle 1","","bbe4918f-198d-43c7-9f4b-79bc2aa08f2b","6/1/2007 12:00:00 AM"
+"74","LL Road Seat/Saddle 2","","24e3e7d4-4053-4035-9d69-f451642f0c1e","6/1/2007 12:00:00 AM"
+"75","ML Road Seat/Saddle 1","","394ed69c-2cc4-4a85-9080-8534112b66fe","6/1/2007 12:00:00 AM"
+"76","HL Road Seat/Saddle 1","","b83ab7ae-ba3f-40df-8296-361915a3a60c","6/1/2007 12:00:00 AM"
+"77","ML Road Rear Wheel","","15702f98-bd92-4fe8-86bc-52f5fd049d3d","6/1/2006 12:00:00 AM"
+"78","HL Road Rear Wheel","","438cbcfa-05ff-4a29-ad95-ecf41dcb83d5","6/1/2006 12:00:00 AM"
+"79","LL Mountain Seat/Saddle 2","","8bbeb399-5a87-4e40-9f52-462fb54f2183","6/1/2007 12:00:00 AM"
+"80","ML Mountain Seat/Saddle 2","","5cefbb6e-3b7e-414f-ac1b-8f6df741fb21","6/1/2007 12:00:00 AM"
+"81","HL Mountain Seat/Saddle 2","","98726f80-e9b9-4141-9cf5-bd2ef07dce25","6/1/2007 12:00:00 AM"
+"82","LL Road Seat/Saddle 1","","00ce9171-8944-4d49-ba37-485c1d122f5c","6/1/2007 12:00:00 AM"
+"83","ML Road Seat/Saddle 2","","feeb8440-446e-4df8-9482-d529c4fc5e8f","6/1/2007 12:00:00 AM"
+"84","HL Road Seat/Saddle 2","","0d3a6ad7-6891-4de9-b14f-e1a841eb220c","6/1/2007 12:00:00 AM"
+"85","LL Mountain Tire","","e3cdc5dd-27c3-4891-9d5e-0d46d1b8457f","6/1/2007 12:00:00 AM"
+"86","ML Mountain Tire","","0434f63a-a361-4d0b-a9fc-8ac2a866ce85","6/1/2007 12:00:00 AM"
+"87","HL Mountain Tire","","ce1b1064-6679-4212-8f56-2b2617ec56a5","6/1/2007 12:00:00 AM"
+"88","LL Road Tire","","e7b00dff-8136-4947-b503-994584cc89e7","6/1/2007 12:00:00 AM"
+"89","ML Road Tire","","d566eb0f-6945-43d8-bc40-bb3d2f4ef7ed","6/1/2007 12:00:00 AM"
+"90","HL Road Tire","","a4b205df-955a-494e-8428-1898aea76f24","6/1/2007 12:00:00 AM"
+"91","Touring Tire","","3bcc63d6-9340-4b93-b5f2-73fa90758bf5","6/1/2007 12:00:00 AM"
+"92","Mountain Tire Tube","","8cfbe7f2-eec3-4ba6-8187-c8a3614f1f0b","6/1/2007 12:00:00 AM"
+"93","Road Tire Tube","","2771d2d2-2e35-4c12-966e-ce9070df6d53","6/1/2007 12:00:00 AM"
+"94","Touring Tire Tube","","deeea9bc-3c8c-4e73-b6b0-64c81a5d99e3","6/1/2007 12:00:00 AM"
+"95","LL Bottom Bracket","","217e7475-d3f4-46fa-836a-d9e53103e71b","6/1/2007 12:00:00 AM"
+"96","ML Bottom Bracket","","09caa74e-f47b-4fca-b206-9d3e46df9751","6/1/2007 12:00:00 AM"
+"97","HL Bottom Bracket","","816360e1-3dee-4568-bf2f-9828243d887b","6/1/2007 12:00:00 AM"
+"98","Chain","","aca920b2-d0f9-49f3-b879-573202b08c2f","6/1/2007 12:00:00 AM"
+"99","LL Crankset","","5b59f032-9b73-4d90-b252-eafd6a871ff1","6/1/2007 12:00:00 AM"
+"100","ML Crankset","","68c6cb29-d94a-40c5-aaad-90aa6e7c5ea1","6/1/2007 12:00:00 AM"
+"101","HL Crankset","","809668a3-d492-41fb-a196-cfe092a12aa2","6/1/2007 12:00:00 AM"
+"102","Front Brakes","","1099a23a-c9ed-41b1-8cc1-e2c1c54a10c8","6/1/2007 12:00:00 AM"
+"103","Front Derailleur","","10e0c8fd-ca13-437b-8e22-51853ae160a7","6/1/2007 12:00:00 AM"
+"104","LL Fork","","0481d7e1-4970-4efa-a560-020f6579918d","6/1/2006 12:00:00 AM"
+"105","ML Fork","","5f115aa4-0553-4478-84b3-5dcf3abe0d08","6/1/2006 12:00:00 AM"
+"106","HL Fork","","7706a8fd-9513-40bc-95e8-301b55b67db2","6/1/2006 12:00:00 AM"
+"107","Hydration Pack","","cfeef30f-f059-4447-92a8-47001e69f3db","6/1/2007 12:00:00 AM"
+"108","Taillight","","dba643d4-4cf2-4507-b947-e817d8c5792b","6/1/2006 12:00:00 AM"
+"109","Headlights - Dual-Beam","","7b17ebf1-cb73-4934-9689-1dc26cf22d9c","6/1/2006 12:00:00 AM"
+"110","Headlights - Weatherproof","","1fadb88f-af88-4e94-bb1e-6158c48e6b40","6/1/2006 12:00:00 AM"
+"111","Water Bottle","","3688268a-260c-48bf-bf71-fff350d4d3d5","6/1/2007 12:00:00 AM"
+"112","Mountain Bottle Cage","","2194e65b-9c13-46e1-a655-3ebff8a96719","6/1/2007 12:00:00 AM"
+"113","Road Bottle Cage","","9416c2dd-55d8-469d-8edf-ef447c511897","6/1/2007 12:00:00 AM"
+"114","Patch kit","","7c738101-c01e-45a2-a0e0-b28aeba1dc40","6/1/2007 12:00:00 AM"
+"115","Cable Lock","","e7e17f11-a7fd-4c3c-b701-68f0ae26143e","6/1/2006 12:00:00 AM"
+"116","Minipump","","90cef1a7-d817-403e-814c-40e305eeefef","6/1/2006 12:00:00 AM"
+"117","Mountain Pump","","b35598f6-b413-4138-8081-5dc7d4c64b64","6/1/2006 12:00:00 AM"
+"118","Hitch Rack - 4-Bike","","f570e0d1-e978-4ff2-b5b1-08f01ab60219","6/1/2007 12:00:00 AM"
+"119","Bike Wash","","90b1b93d-ebc8-44a2-ac08-cdd1d20ca39c","6/1/2007 12:00:00 AM"
+"120","Touring-Panniers","","f06999a1-3aa7-4e85-b8cb-049eb2c391fa","6/1/2006 12:00:00 AM"
+"121","Fender Set - Mountain","","c88d1136-a8bb-46bb-94aa-8c1854f813cc","6/1/2007 12:00:00 AM"
+"122","All-Purpose Bike Stand","","6eab8607-d927-40e1-af30-d8a2a953050c","6/1/2007 12:00:00 AM"
+"123","LL Mountain Rear Wheel","","29521f66-2926-471f-867b-668b0b9ec2b0","6/1/2006 12:00:00 AM"
+"124","ML Mountain Rear Wheel","","d968d774-778e-4399-a3c5-375176418229","6/1/2006 12:00:00 AM"
+"125","HL Mountain Rear Wheel","","95450545-adf7-48f3-899e-964de8920dc6","6/1/2006 12:00:00 AM"
+"126","LL Road Rear Wheel","","95946bd4-c6d9-4344-8066-317d8957ea21","6/1/2006 12:00:00 AM"
+"127","Rear Derailleur","","f9327e5d-f8b6-40c5-bfa9-63f886bdfc24","6/1/2007 12:00:00 AM"
+"128","Rear Brakes","","71d47afd-da3a-43f1-83ad-69c71f96ef33","6/1/2007 12:00:00 AM"
