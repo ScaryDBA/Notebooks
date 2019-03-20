@@ -1,3 +1,4 @@
+--Creating blank tables. Will figure out how to add data later.
 --Schema
 CREATE SCHEMA dbo;
 CREATE SCHEMA saleslt;
