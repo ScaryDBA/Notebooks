@@ -1,7 +1,9 @@
 # Notebooks
-Learning how to create, publish, share, program, pretty much everything about Notebooks. The current set under development here are all meant for use with Azure Data Studio and the Jupyter Notebook implementation there. I have no idea how well these will work in other tools.
+I am learning how to create, publish, share, program, pretty much anything else I can do with Jupyter Notebooks. The current set under development here are all meant for use with Azure Data Studio and the Jupyter Notebook implementation there. I have no idea how well these will work in other tools.
 
 ## Notebook Purposes and Descriptions
+
+*Your First Notebook:* An introduction to the concept of Jupyter Notebooks.
 
 *Introduction to Containers:* A presentation on containers using a notebook to present from and to run all code samples from.
 
